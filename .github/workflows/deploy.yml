@@ -1,0 +1,62 @@
+name: Deploy to GitHub Pages
+
+# Triggers: runs on every push to the main branch
+on:
+  push:
+    branches:
+      - main
+
+# Allow the workflow to write to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only allow one concurrent deployment; cancel any in-progress run
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Check out the repository code
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. Set up Node.js (version matches local dev)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # 3. Install dependencies (clean install, no lockfile mutations)
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Run TypeScript compiler check + Vite production build
+      #    Output goes to /dist (configured in vite.config.ts with base: '/portfolio/')
+      - name: Build
+        run: npm run build
+
+      # 5. Upload the /dist folder as a Pages artifact for the deploy job
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    name: Deploy
+    needs: build        # Only runs if build succeeds
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # 6. Deploy the uploaded artifact to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
