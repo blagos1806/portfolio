@@ -1,0 +1,67 @@
+/* ── Dark mode (padrão) ─────────────────────────── */
+:root {
+  /* Accent — Teal */
+  --color-primary:       #14b8a6;
+  --color-primary-dark:  #0d9488;
+  --color-primary-light: #5eead4;
+  --color-primary-glow:  rgba(20, 184, 166, 0.15);
+
+  /* Backgrounds */
+  --color-bg:            #0a0f1e;
+  --color-bg-secondary:  #111827;
+  --color-bg-card:       #1a2235;
+
+  /* Text */
+  --color-text:          #f1f5f9;
+  --color-text-muted:    #94a3b8;
+  --color-text-subtle:   #64748b;
+
+  /* Borders */
+  --color-border:        #1e293b;
+  --color-border-light:  #334155;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-glow: 0 0 20px rgba(20, 184, 166, 0.2);
+
+  /* Typography */
+  --font-sans:       'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono:       'Fira Code', 'Courier New', monospace;
+  --font-size-xs:    0.75rem;
+  --font-size-sm:    0.875rem;
+  --font-size-base:  1rem;
+  --font-size-lg:    1.125rem;
+  --font-size-xl:    1.25rem;
+  --font-size-2xl:   1.5rem;
+  --font-size-3xl:   1.875rem;
+  --font-size-4xl:   2.25rem;
+  --font-size-hero:  clamp(2.5rem, 6vw, 4.5rem);
+
+  /* Spacing */
+  --spacing-section:  6rem;
+  --max-width:        1100px;
+  --border-radius:    0.5rem;
+  --border-radius-lg: 1rem;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition:      250ms ease;
+  --transition-slow: 400ms ease;
+}
+
+/* ── Light mode ─────────────────────────────────── */
+[data-theme="light"] {
+  --color-bg:           #f8fafc;
+  --color-bg-secondary: #f1f5f9;
+  --color-bg-card:      #ffffff;
+
+  --color-text:         #0f172a;
+  --color-text-muted:   #475569;
+  --color-text-subtle:  #94a3b8;
+
+  --color-border:       #e2e8f0;
+  --color-border-light: #cbd5e1;
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.06);
+  --shadow-glow: 0 0 20px rgba(20, 184, 166, 0.15);
+}
