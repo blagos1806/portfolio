@@ -1,1 +1,68 @@
-[]
+[
+    {
+        "id": 1,
+        "title": {
+            "en": "Bachelor's Degree in Computer Science",
+            "pt": "Licenciatura em Engenharia Informática"
+        },
+        "institution": {
+            "en": "Polytechnic Institute of Setúbal",
+            "pt": "Instituto Politécnico de Setúbal"
+        },
+        "timeframe": "2020 - 2023",
+        "duration": "3 years",
+        "location": "Setúbal, Portugal",
+        "description": {
+            "en": "",
+            "pt": ""
+        },
+        "inprogress": false,
+        "logo": null,
+        "certification": null,
+        "type": "degree"
+    },
+    {
+        "id": 2,
+        "title": {
+            "en": "",
+            "pt": ""
+        },
+        "institution": {
+            "en": "",
+            "pt": ""
+        },
+        "timeframe": "",
+        "duration": "",
+        "location": "",
+        "description": {
+            "en": "",
+            "pt": ""
+        },
+        "inprogress": false,
+        "logo": null,
+        "certification": "https://example.com/certificate.pdf",
+        "type": "long_course"
+    },
+    {
+        "id": 3,
+        "title": {
+            "en": "",
+            "pt": ""
+        },
+        "institution": {
+            "en": "",
+            "pt": ""
+        },
+        "timeframe": "",
+        "duration": "",
+        "location": "",
+        "description": {
+            "en": "",
+            "pt": ""
+        },
+        "inprogress": false,
+        "logo": null,
+        "certification": null,
+        "type": "certification"
+    }
+]

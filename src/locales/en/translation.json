@@ -1,0 +1,91 @@
+{
+    "nav": {
+        "about": "About",
+        "experience": "Experience",
+        "skills": "Skills",
+        "education": "Education",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "headline": {
+            "line_1": "Hi, I'm",
+            "line_2": "Bernardo Lagos",
+            "line_3": [
+                "FullStack Developer",
+                "React Developer",
+                "Node.js Developer"
+            ]
+        },
+        "caption": "",
+        "availability": "Looking for new opportunities",
+        "cta_cv": "Download CV",
+        "cta_linkedin": "LinkedIn",
+        "cta_github": "GitHub",
+        "cta_contact": "Contact Me",
+        "scroll_down": "Scroll Down"
+    },
+    "about": {
+        "title": "About Me",
+        "summary": [
+            ""
+        ]
+    },
+    "experience": {
+        "title": "Experience",
+        "view_projects": "View Projects",
+        "view_more": "View More",
+        "description": "Description",
+        "gallery": "Gallery"
+    },
+    "skills": {
+        "title": "Skills",
+        "filter": {
+            "all": "All",
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "database": "Database",
+            "devops": "DevOps",
+            "testing": "Testing",
+            "tools": "Tools"
+        },
+        "levels": {
+            "advanced": "Advanced",
+            "intermediate": "Intermediate",
+            "beginner": "Beginner/Learning"
+        }
+    },
+    "education": {
+        "title": "Education & Certifications",
+        "education": "Education",
+        "types": {
+            "degree": "Degree",
+            "long_course": "Intensive Course",
+            "certification": "Certification"
+        },
+        "view_cert": "View Certificate",
+        "download_cert": "Download PDF"
+    },
+    "projects": {
+        "title": "Personal Projects",
+        "description": "Description",
+        "stack": "Tech Stack",
+        "view_project": "View More",
+        "view_repo": "GitHub Repository",
+        "view_demo": "Live Demo",
+        "gallery": "Gallery"
+    },
+    "contact": {
+        "title": "Contact Me",
+        "subtitle": "Let's get in touch!",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Send Message"
+        }
+    },
+    "footer": {
+        "text": "© 2026 Bernardo Lagos. All rights reserved."
+    }
+}

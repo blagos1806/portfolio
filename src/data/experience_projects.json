@@ -1,7 +1,11 @@
 [
     {
         "id": 1,
-        "name": "Portfolio Website",
+        "id_experience": 1,
+        "name": {
+            "en": "Portfolio Website",
+            "pt": "Site de Portfólio"
+        },
         "overview": {
             "en": "A personal portfolio website built with React and Vite, showcasing my skills, experience, and projects.",
             "pt": "Um site de portfólio pessoal construído com React e Vite, mostrando minhas habilidades, experiência e projetos."
@@ -20,9 +24,6 @@
             "JavaScript (ES6+)",
             "HTML5 / CSS3"
         ],
-        "github": null,
-        "demo": null,
-        "logo": null,
         "gallery": [
             {
                 "id": 1,

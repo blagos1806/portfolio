@@ -1,0 +1,91 @@
+{
+    "nav": {
+        "about": "Sobre",
+        "experience": "Experiência",
+        "skills": "Competências",
+        "education": "Educação",
+        "projects": "Projetos",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "headline": {
+            "line_1": "Olá, sou o",
+            "line_2": "Bernardo Lagos",
+            "line_3": [
+                "Desenvolvedor FullStack",
+                "Desenvolvedor React",
+                "Desenvolvedor Node.js"
+            ]
+        },
+        "caption": "",
+        "availability": "À procura de novas oportunidades",
+        "cta_cv": "Download CV",
+        "cta_linkedin": "LinkedIn",
+        "cta_github": "GitHub",
+        "cta_contact": "Contacte-me",
+        "scroll_down": "Scroll"
+    },
+    "about": {
+        "title": "Sobre Mim",
+        "summary": [
+            ""
+        ]
+    },
+    "experience": {
+        "title": "Experiência",
+        "view_projects": "Ver Projetos",
+        "view_more": "Ver Mais",
+        "description": "Descrição",
+        "gallery": "Galeria"
+    },
+    "skills": {
+        "title": "Competências",
+        "filter": {
+            "all": "Todas",
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "database": "Base de Dados",
+            "devops": "DevOps",
+            "testing": "Testes",
+            "tools": "Ferramentas"
+        },
+        "levels": {
+            "advanced": "Avançado",
+            "intermediate": "Intermédio",
+            "beginner": "Iniciante/A aprender"
+        }
+    },
+    "education": {
+        "title": "Educação & Certificações",
+        "education": "Educação",
+        "types": {
+            "degree": "Licenciatura",
+            "long_course": "Curso Intensivo",
+            "certification": "Certificação"
+        },
+        "view_cert": "Ver Certificado",
+        "download_cert": "Download PDF"
+    },
+    "projects": {
+        "title": "Projetos Pessoais",
+        "description": "Descrição",
+        "stack": "Tecnologias",
+        "view_project": "Ver Mais",
+        "view_repo": "Repositório GitHub",
+        "view_demo": "Demonstração",
+        "gallery": "Galeria"
+    },
+    "contact": {
+        "title": "Contacte-me",
+        "subtitle": "Vamos entrar em contacto!",
+        "form": {
+            "name": "Nome",
+            "email": "Email",
+            "message": "Mensagem",
+            "submit": "Enviar Mensagem"
+        }
+    },
+    "footer": {
+        "text": "© 2026 Bernardo Lagos. Todos os direitos reservados."
+    }
+}

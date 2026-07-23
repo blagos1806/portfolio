@@ -1,1 +1,80 @@
-{}
+{
+    "name": "Bernardo Lagos",
+    "role": "FullStack Developer",
+    "location": "Sesimbra, Setúbal, Portugal",
+    "contact": {
+        "phone": "+351 935 248 953",
+        "email": "bernas.lagos@gmail.com"
+    },
+    "socials": {
+        "github": "https://github.com/blagos1806",
+        "linkedin": "https://www.linkedin.com/in/blagos-dev"
+    },
+    "statistics": {
+        "yearsOfExperience": "2+",
+        "projectsInvolved": "15+",
+        "personalProjects": 5,
+        "clientsServed": 1
+    },
+    "photos": [
+        {
+            "id": 1,
+            "image": null,
+            "caption": {
+                "en": "Hero Image",
+                "pt": "Imagem Hero"
+            }
+        },
+        {
+            "id": 2,
+            "image": null,
+            "caption": {
+                "en": "About Me Image",
+                "pt": "Imagem Sobre Mim"
+            }
+        }
+    ],
+    "languages": [
+        {
+            "name": {
+                "en": "Portuguese",
+                "pt": "Português"
+            },
+            "icon": "pt",
+            "proficiency": {
+                "en": "Native",
+                "pt": "Nativo"
+            }
+        },
+        {
+            "name": {
+                "en": "English",
+                "pt": "Inglês"
+            },
+            "icon": "gb",
+            "proficiency": {
+                "en": "Fluent",
+                "pt": "Fluente"
+            }
+        },
+        {
+            "name": {
+                "en": "Spanish",
+                "pt": "Espanhol"
+            },
+            "icon": "es",
+            "proficiency": {
+                "en": "Advanced",
+                "pt": "Avançado"
+            }
+        }
+    ],
+    "hobbies": {
+        "en": [
+            "Music", "Sports & Calisthenics", "Gaming", "Literature & Cinema", "Learning new skills"
+        ],
+        "pt": [
+            "Música", "Desporto & Calistenia", "Jogos", "Literatura & Cinema", "Aprender novas competências"
+        ]
+    }
+}
