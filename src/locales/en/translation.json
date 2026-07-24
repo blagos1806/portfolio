@@ -5,11 +5,12 @@
         "skills": "Skills",
         "education": "Education",
         "projects": "Projects",
-        "contact": "Contact"
+        "contact": "Contact",
+        "toggle_language": "Switch Language"
     },
     "hero": {
         "headline": {
-            "line_1": "Hi, I'm",
+            "line_1": "Hello there, I'm",
             "line_2": "Bernardo Lagos",
             "line_3": [
                 "FullStack Developer",
@@ -17,19 +18,28 @@
                 "Node.js Developer"
             ]
         },
-        "caption": "",
+        "caption": "Turning ideas into clean, scalable, and efficient code — from database to UI.",
         "availability": "Looking for new opportunities",
         "cta_cv": "Download CV",
         "cta_linkedin": "LinkedIn",
         "cta_github": "GitHub",
         "cta_contact": "Contact Me",
-        "scroll_down": "Scroll Down"
+        "scroll_down": "Scroll",
+        "stats": {
+            "years": "Years Of Experience",
+            "projects": "Projects Involved",
+            "company": "Company"
+        }
     },
     "about": {
         "title": "About Me",
         "summary": [
-            ""
-        ]
+            "I'm Bernardo, a Fullstack Developer based in Setúbal. I spent the last two and a half years at INSTICC building web apps and APIs from the ground up — handling everything from database design to frontend components using Node.js and React.",
+            "Right now, I'm diving deeper into Python, Go, and DevOps tools like Docker to broaden my backend toolset. I'm all about writing code that works cleanly, scales well, and solves real problems without unnecessary complexity.",
+            "When I'm not coding, I'm usually training at the gym, listening to music, gaming, or catching a good film."
+        ],
+        "languages_label": "Languages",
+        "hobbies_label": "Interests"
     },
     "experience": {
         "title": "Experience",
@@ -86,6 +96,6 @@
         }
     },
     "footer": {
-        "text": "© 2026 Bernardo Lagos. All rights reserved."
+        "text": "© 2026 Bernardo Lagos. All rights reserved. · Built with React, TypeScript & Framer Motion."
     }
 }
