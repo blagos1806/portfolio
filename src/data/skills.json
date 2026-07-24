@@ -6,8 +6,8 @@
     {"name": "Material UI", "type": "frontend", "level": "intermediate"},
     {"name": "Bootstrap", "type": "frontend", "level": "intermediate"},
     {"name": "Semantic UI", "type": "frontend", "level": "intermediate"},
-    {"name": "TypeScript", "type": "frontend", "level": "beginner"},
-    {"name": "Context API", "type": "frontend", "level": "beginner"},
+    {"name": "TypeScript", "type": "frontend", "level": "intermediate"},
+    {"name": "Context API", "type": "frontend", "level": "intermediate"},
 
     {"name": "Node.js", "type": "backend", "level": "advanced"},
     {"name": "RESTful APIs", "type": "backend", "level": "advanced"},
@@ -35,6 +35,10 @@
     {"name": "AWS", "type": "devops", "level": "beginner"},
     {"name": "XAMPP", "type": "devops", "level": "beginner"},
 
+    
+    {"name": "Jest", "type": "testing", "level": "beginner"},
+    {"name": "JUnit", "type": "testing", "level": "beginner"},
+
     {"name": "Git", "type": "tools", "level": "advanced"},
     {"name": "GitHub", "type": "tools", "level": "advanced"},
     {"name": "SourceTree", "type": "tools", "level": "advanced"},
@@ -45,7 +49,5 @@
     {"name": "Claude", "type": "tools", "level": "intermediate"},
     {"name": "ChatGPT", "type": "tools", "level": "intermediate"},
     {"name": "Postman", "type": "tools", "level": "intermediate"},
-    {"name": "Figma", "type": "tools", "level": "intermediate"},
-
-    {"name": "Jest", "type": "testing", "level": "beginner"}
+    {"name": "Figma", "type": "tools", "level": "intermediate"}
 ]
