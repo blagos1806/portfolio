@@ -1,0 +1,17 @@
+/* Cursor piscante do efeito typewriter na Hero */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+/* Seta a "saltitar" no scroll indicator da Hero */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(8px); }
+}
+
+/* Brilho pulsante em elementos accent (opcional) */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 10px var(--color-primary-glow); }
+  50%       { box-shadow: 0 0 25px rgba(20, 184, 166, 0.3); }
+}
