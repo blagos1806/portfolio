@@ -9,59 +9,118 @@
             "en": "Polytechnic Institute of Setúbal",
             "pt": "Instituto Politécnico de Setúbal"
         },
-        "timeframe": "2020 - 2023",
+        "timeframe": {
+            "en": "2020 - 2023",
+            "pt": "2020 - 2023"
+        },
         "duration": "3 years",
         "location": "Setúbal, Portugal",
         "description": {
-            "en": "",
-            "pt": ""
+            "en": [""],
+            "pt": [""]
         },
         "inprogress": false,
-        "logo": null,
-        "certification": null,
+        "logo": "assets/images/ips-logo.jpg",
+        "certification": "assets/certificates/diplome.pdf",
         "type": "degree"
     },
     {
         "id": 2,
         "title": {
-            "en": "",
-            "pt": ""
+            "en": "Python Programming Specialization",
+            "pt": "Formação em Programação Python"
         },
         "institution": {
-            "en": "",
-            "pt": ""
+            "en": "IEFP",
+            "pt": "IEFP"
         },
-        "timeframe": "",
-        "duration": "",
-        "location": "",
+        "timeframe": {
+            "en": "Dec 2025 - Apr 2026",
+            "pt": "Dez 2025 - Abr 2026"
+        },
+        "duration": "350h",
+        "location": "Online",
         "description": {
-            "en": "",
-            "pt": ""
+            "en": ["Intensive training focused on advanced Python logic, data structures, and full python integration."],
+            "pt": ["Curso intensivo focado em lógica avançada de Python, estruturas de dados e integração completa do Python."]
         },
         "inprogress": false,
-        "logo": null,
-        "certification": "https://example.com/certificate.pdf",
+        "logo": "assets/images/iefp-logo.png",
+        "certification": null,
         "type": "long_course"
     },
     {
         "id": 3,
         "title": {
-            "en": "",
-            "pt": ""
+            "en": "Modern React with Redux",
+            "pt": "React & Redux"
         },
         "institution": {
-            "en": "",
-            "pt": ""
+            "en": "Udemy",
+            "pt": "Udemy"
         },
-        "timeframe": "",
-        "duration": "",
-        "location": "",
+        "timeframe": {
+            "en": "May 2023",
+            "pt": "Mai 2023"
+        },
+        "duration": "37h 30m",
+        "location": "Online",
         "description": {
-            "en": "",
-            "pt": ""
+            "en": ["Advanced state management and TypeScript integration."],
+            "pt": ["Gestão avançada de estado e integração com TypeScript."]
         },
         "inprogress": false,
-        "logo": null,
+        "logo": "assets/images/udemy-logo.png",
+        "certification": "assets/certificates/react-redux.pdf",
+        "type": "certification"
+    },
+    {
+        "id": 4,
+        "title": {
+            "en": "Go Programming Language",
+            "pt": "Linguagem de Programação Go"
+        },
+        "institution": {
+            "en": "Udemy",
+            "pt": "Udemy"
+        },
+        "timeframe": {
+            "en": "Apr 2026",
+            "pt": "Abr 2026"
+        },
+        "duration": "9h",
+        "location": "Online",
+        "description": {
+            "en": ["Concurrency models (Routines/Channels) and scalable backend design."],
+            "pt": ["Concorrência (Routines/Channels) e design de backend escalável."]
+        },
+        "inprogress": false,
+        "logo": "assets/images/udemy-logo.png",
+        "certification": "assets/certificates/golang.pdf",
+        "type": "certification"
+    },
+    {
+        "id": 5,
+        "title": {
+            "en": "Docker & Kubernetes",
+            "pt": "Docker & Kubernetes"
+        },
+        "institution": {
+            "en": "Udemy",
+            "pt": "Udemy"
+        },
+        "timeframe": {
+            "en": "Present",
+            "pt": "Presente"
+        },
+        "duration": "21h 30m",
+        "location": "Online",
+        "description": {
+            "en": [" Containerization, CI/CD workflows, and AWS/Google Cloud deployment. "],
+            "pt": [" Containerização, fluxos de CI/CD e deployment em AWS/Google Cloud. "]
+        },
+        "inprogress": true,
+        "logo": "assets/images/udemy-logo.png",
         "certification": null,
         "type": "certification"
     }
