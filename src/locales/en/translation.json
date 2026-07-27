@@ -73,6 +73,7 @@
             "long_course": "Intensive Course",
             "certification": "Certification"
         },
+        "in_progress": "In Progress",
         "view_cert": "View Certificate",
         "download_cert": "Download PDF"
     },
@@ -87,12 +88,21 @@
     },
     "contact": {
         "title": "Contact Me",
-        "subtitle": "Let's get in touch!",
+        "heading": "Let's connect!",
+        "description": "Whether you have a new opportunity, a project idea, or just want to connect — feel free to drop me a message. I'll get back to you as soon as possible.",
+        "email_label": "Email",
+        "copy": "Copy",
+        "copied": "Copied!",
         "form": {
-            "name": "Name",
-            "email": "Email",
-            "message": "Message",
-            "submit": "Send Message"
+            "name_label": "Your Name",
+            "email_label": "Your Email",
+            "subject_label": "Subject",
+            "message_label": "Message",
+            "name_placeholder": "John Wick",
+            "email_placeholder": "john@example.com",
+            "subject_placeholder": "New Opportunity / Quick Chat",
+            "message_placeholder": "Hi Bernardo, I'd love to chat about...",
+            "submit": "Send message"
         }
     },
     "footer": {

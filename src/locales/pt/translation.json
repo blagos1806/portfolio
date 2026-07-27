@@ -74,6 +74,7 @@
             "certification": "Certificação"
         },
         "view_cert": "Ver Certificado",
+        "in_progress": "Em Curso",
         "download_cert": "Download PDF"
     },
     "projects": {
@@ -87,12 +88,21 @@
     },
     "contact": {
         "title": "Contacte-me",
-        "subtitle": "Vamos entrar em contacto!",
+        "heading": "Vamos conversar!",
+        "description": "Quer tenhas uma nova oportunidade, ideia para um projeto ou apenas queiras trocar uma ideia — envia-me uma mensagem. Respondo assim que possível.",
+        "email_label": "Email",
+        "copy": "Copiar",
+        "copied": "Copiado!",
         "form": {
-            "name": "Nome",
-            "email": "Email",
-            "message": "Mensagem",
-            "submit": "Enviar Mensagem"
+            "name_label": "O teu nome",
+            "email_label": "O teu email",
+            "subject_label": "Assunto",
+            "message_label": "Mensagem",
+            "name_placeholder": "João Silva",
+            "email_placeholder": "joao@exemplo.com",
+            "subject_placeholder": "Nova Oportunidade / Conversa Rápida",
+            "message_placeholder": "Olá Bernardo, adoraria conversar sobre...",
+            "submit": "Enviar mensagem"
         }
     },
     "footer": {
