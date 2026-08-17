@@ -5,7 +5,7 @@
     "location": "Sesimbra, Setúbal, Portugal",
     "contact": {
         "phone": "+351 935 248 953",
-        "email": "bernas.lagos@gmail.com"
+        "email": "bernardo.lagos.dev@gmail.com"
     },
     "resume": "assets/cv/BL_cv.pdf",
     "socials": {
@@ -21,7 +21,7 @@
     "photos": [
         {
             "id": 1,
-            "image": "assets/images/hero-image.jpg",
+            "image": "assets/images/hero.jpeg",
             "caption": {
                 "en": "Hero Image",
                 "pt": "Imagem Hero"
