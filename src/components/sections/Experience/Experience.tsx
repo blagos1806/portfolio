@@ -17,9 +17,9 @@ export default function Experience() {
   const [selectedProjects, setSelectedProjects] = useState<null | { id: number; company: string }>(null);
   const [selectedProject, setSelectedProject] = useState<ExpProject | null>(null);
 
-  const handleViewProjects = (id: number, company: string) => {
-    setSelectedProjects({ id, company });
-  };
+  // const handleViewProjects = (id: number, company: string) => {
+  //   setSelectedProjects({ id, company });
+  // };
 
   const handleCloseProjectsModal = () => {
     setSelectedProjects(null);
@@ -35,15 +35,15 @@ export default function Experience() {
 
         <motion.div className="experience__timeline" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={viewport}>
           {[...experienceData].sort((a, b) => b.id - a.id).map((item) => {
-            const hasProjects = experienceProjects.some((p) => p.id_experience === item.id);
+            // const hasProjects = experienceProjects.some((p) => p.id_experience === item.id);
             return (
               <motion.div key={item.id} className="experience__entry" variants={staggerItem}>
                 <div className="experience__dot" aria-hidden="true" />
                 <ExperienceCard
                   item={item}
                   lang={lang}
-                  hasProjects={hasProjects}
-                  onViewProjects={() => handleViewProjects(item.id, item.company)}
+                  // hasProjects={hasProjects}
+                  // onViewProjects={() => handleViewProjects(item.id, item.company)}
                 />
               </motion.div>
             );

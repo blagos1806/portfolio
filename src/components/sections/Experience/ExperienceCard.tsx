@@ -1,8 +1,8 @@
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 import { MapPin, Calendar } from "lucide-react";
 import Card from "../../ui/Card/Card";
 import Badge from "../../ui/Badge/Badge";
-import Button from "../../ui/Button/Button";
+// import Button from "../../ui/Button/Button";
 import experienceData from "../../../data/experience.json";
 
 export type ExperienceItem = (typeof experienceData)[number];
@@ -12,12 +12,12 @@ type Lang = "en" | "pt";
 interface ExperienceCardProps {
   item: ExperienceItem;
   lang: Lang;
-  hasProjects: boolean;
-  onViewProjects: () => void;
+  // hasProjects: boolean;
+  // onViewProjects: () => void;
 }
 
-export default function ExperienceCard({ item, lang, hasProjects, onViewProjects }: ExperienceCardProps) {
-  const { t } = useTranslation();
+export default function ExperienceCard({ item, lang /*, hasProjects, onViewProjects*/ }: ExperienceCardProps) {
+  // const { t } = useTranslation();
 
   return (
     <Card hoverable className="experience__card">
