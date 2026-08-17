@@ -1,4 +1,8 @@
 {
+    "common": {
+        "show_more": "Ver Mais ({{count}})",
+        "show_less": "Ver Menos"
+    },
     "nav": {
         "about": "Sobre",
         "experience": "Experiência",
@@ -45,6 +49,7 @@
         "title": "Experiência",
         "view_projects": "Ver Projetos",
         "view_more": "Ver Mais",
+        "projects_at": "Projetos Desenvolvidos em {{company}}",
         "description": "Descrição",
         "gallery": "Galeria"
     },
@@ -75,16 +80,14 @@
         },
         "view_cert": "Ver Certificado",
         "in_progress": "Em Curso",
-        "download_cert": "Download PDF"
+        "download_cert": "Download PDF",
+        "view_source": "Ver Fonte"
     },
     "projects": {
         "title": "Projetos Pessoais",
         "description": "Descrição",
         "stack": "Tecnologias",
-        "view_project": "Ver Mais",
-        "view_repo": "Repositório GitHub",
-        "view_demo": "Demonstração",
-        "gallery": "Galeria"
+        "view_project": "Ver Mais"
     },
     "contact": {
         "title": "Contacte-me",
