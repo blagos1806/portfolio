@@ -1,0 +1,53 @@
+[
+    {"name": "JavaScript (ES6+)", "type": "frontend", "level": "advanced"},
+    {"name": "React", "type": "frontend", "level": "advanced"},
+    {"name": "HTML5 / CSS3", "type": "frontend", "level": "advanced"},
+    {"name": "Redux", "type": "frontend", "level": "advanced"},
+    {"name": "Material UI", "type": "frontend", "level": "intermediate"},
+    {"name": "Bootstrap", "type": "frontend", "level": "intermediate"},
+    {"name": "Semantic UI", "type": "frontend", "level": "intermediate"},
+    {"name": "TypeScript", "type": "frontend", "level": "intermediate"},
+    {"name": "Context API", "type": "frontend", "level": "intermediate"},
+
+    {"name": "Node.js", "type": "backend", "level": "advanced"},
+    {"name": "RESTful APIs", "type": "backend", "level": "advanced"},
+    {"name": "Express.js", "type": "backend", "level": "advanced"},
+    {"name": "API Integration", "type": "backend", "level": "advanced"},
+    {"name": "Python", "type": "backend", "level": "intermediate"},
+    {"name": "Flask", "type": "backend", "level": "intermediate"},
+    {"name": "Microservices", "type": "backend", "level": "intermediate"},
+    {"name": "Regex", "type": "backend", "level": "beginner"},
+    {"name": "Go (Golang)", "type": "backend", "level": "beginner"},
+
+    {"name": "SQL", "type": "database", "level": "advanced"},
+    {"name": "PostgreSQL", "type": "database", "level": "intermediate"},
+    {"name": "MS SQL Server", "type": "database", "level": "intermediate"},
+    {"name": "MariaDB", "type": "database", "level": "intermediate"},
+    {"name": "MySQL", "type": "database", "level": "intermediate"},
+    {"name": "NoSQL", "type": "database", "level": "intermediate"},
+    {"name": "MongoDB", "type": "database", "level": "intermediate"},
+    {"name": "Firebase", "type": "database", "level": "beginner"},
+
+    {"name": "GitHub Actions", "type": "devops", "level": "beginner"},
+    {"name": "GitHub Pages", "type": "devops", "level": "beginner"},
+    {"name": "Docker", "type": "devops", "level": "beginner"},
+    {"name": "Kubernetes", "type": "devops", "level": "beginner"},
+    {"name": "AWS", "type": "devops", "level": "beginner"},
+    {"name": "XAMPP", "type": "devops", "level": "beginner"},
+
+    
+    {"name": "Jest", "type": "testing", "level": "beginner"},
+    {"name": "JUnit", "type": "testing", "level": "beginner"},
+
+    {"name": "Git", "type": "tools", "level": "advanced"},
+    {"name": "GitHub", "type": "tools", "level": "advanced"},
+    {"name": "SourceTree", "type": "tools", "level": "advanced"},
+    {"name": "VS Code", "type": "tools", "level": "advanced"},
+    {"name": "Slack", "type": "tools", "level": "advanced"},
+    {"name": "NPM", "type": "tools", "level": "intermediate"},
+    {"name": "GitHub Copilot", "type": "tools", "level": "intermediate"},
+    {"name": "Claude", "type": "tools", "level": "intermediate"},
+    {"name": "ChatGPT", "type": "tools", "level": "intermediate"},
+    {"name": "Postman", "type": "tools", "level": "intermediate"},
+    {"name": "Figma", "type": "tools", "level": "intermediate"}
+]

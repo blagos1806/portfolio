@@ -1,0 +1,160 @@
+/* ── Projects section ──────────────────────────── */
+.projects {
+  padding-block: var(--spacing-section);
+}
+
+.projects__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* ── Title ──────────────────────────────────────── */
+.projects__title {
+  font-weight: 700;
+  font-size: var(--font-size-3xl);
+  color: var(--color-text);
+  letter-spacing: -0.02em;
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.projects__title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 3rem;
+  height: 3px;
+  background: var(--color-primary);
+  border-radius: 2px;
+}
+
+/* ── Projects list ──────────────────────────────── */
+
+.projects__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* ── Card body: left content + right logo ───────── */
+
+.projects__card-body {
+  display: flex;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.projects__card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* ── Header: name + links ────────────────────────── */
+
+.projects__card-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.projects__name {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.projects__links {
+  display: flex;
+  gap: 1.25rem;
+  flex-shrink: 0;
+}
+
+.projects__link {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-primary);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: opacity var(--transition-fast);
+}
+
+.projects__link:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+}
+
+/* ── Description ─────────────────────────────────── */
+
+.projects__description {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.projects__description p {
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.projects__description p::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-size: 0.7rem;
+  top: 0.25rem;
+}
+
+/* ── Stack badges ────────────────────────────────── */
+
+.projects__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: auto;
+}
+
+/* ── Logo ────────────────────────────────────────── */
+
+.projects__logo-wrapper {
+  flex-shrink: 0;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects__logo {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+}
+
+/* ── Responsive ──────────────────────────────────── */
+
+@media (max-width: 600px) {
+  .projects__card-body {
+    flex-direction: column-reverse;
+  }
+
+  .projects__logo-wrapper {
+    width: 100%;
+  }
+
+  .projects__logo {
+    height: 140px;
+  }
+}

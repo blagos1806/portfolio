@@ -1,0 +1,114 @@
+{
+    "common": {
+        "show_more": "Ver Mais ({{count}})",
+        "show_less": "Ver Menos"
+    },
+    "nav": {
+        "about": "Sobre",
+        "experience": "Experiência",
+        "skills": "Competências",
+        "education": "Educação",
+        "projects": "Projetos",
+        "contact": "Contacto",
+        "toggle_language": "Mudar Idioma"
+    },
+    "hero": {
+        "headline": {
+            "line_1": "Olá, sou o",
+            "line_2": "Bernardo Lagos",
+            "line_3": [
+                "Desenvolvedor FullStack",
+                "Desenvolvedor React",
+                "Desenvolvedor Node.js"
+            ]
+        },
+        "caption": "Transformando ideias em código limpo, escalável e eficiente — de Bases de Dados à UI.",
+        "availability": "À procura de novas oportunidades",
+        "cta_cv": "Download CV",
+        "cta_linkedin": "LinkedIn",
+        "cta_github": "GitHub",
+        "cta_contact": "Contacte-me",
+        "scroll_down": "Scroll",
+        "stats": {
+            "years": "Anos de Experiência",
+            "projects": "Projetos Envolvidos",
+            "company": "Empresa"
+        }
+    },
+    "about": {
+        "title": "Sobre Mim",
+        "summary": [
+            "Chamo-me Bernardo, um Desenvolvedor Fullstack de Setúbal. Passei os últimos dois anos e meio na INSTICC a criar aplicações web e APIs do zero — desde a modelação de bases de dados a componentes de frontend com Node.js e React.",
+            "Neste momento, estou a aprofundar Python, Go e ferramentas de DevOps como Docker para reforçar o meu perfil de backend. O meu foco é simples: escrever código limpo, escalável e resolver problemas reais sem complicar.",
+            "Quando estou fora do ecrã, costumo estar a treinar no ginásio, a ouvir música, a jogar ou a ver um bom filme."
+        ],
+        "languages_label": "Idiomas",
+        "hobbies_label": "Interesses"
+    },
+    "experience": {
+        "title": "Experiência",
+        "view_projects": "Ver Projetos",
+        "view_more": "Ver Mais",
+        "projects_at": "Projetos Desenvolvidos em {{company}}",
+        "description": "Descrição",
+        "gallery": "Galeria"
+    },
+    "skills": {
+        "title": "Competências",
+        "filter": {
+            "all": "Todas",
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "database": "Base de Dados",
+            "devops": "DevOps",
+            "testing": "Testes",
+            "tools": "Ferramentas"
+        },
+        "levels": {
+            "advanced": "Avançado",
+            "intermediate": "Intermédio",
+            "beginner": "Iniciante/A aprender"
+        }
+    },
+    "education": {
+        "title": "Educação & Certificações",
+        "education": "Educação",
+        "types": {
+            "degree": "Licenciatura",
+            "long_course": "Curso Intensivo",
+            "certification": "Certificação"
+        },
+        "view_cert": "Ver Certificado",
+        "in_progress": "Em Curso",
+        "download_cert": "Download PDF",
+        "view_source": "Ver Fonte"
+    },
+    "projects": {
+        "title": "Projetos Pessoais",
+        "description": "Descrição",
+        "stack": "Tecnologias",
+        "view_project": "Ver Mais"
+    },
+    "contact": {
+        "title": "Contacte-me",
+        "heading": "Vamos conversar!",
+        "description": "Quer tenhas uma nova oportunidade, ideia para um projeto ou apenas queiras trocar uma ideia — envia-me uma mensagem. Respondo assim que possível.",
+        "email_label": "Email",
+        "copy": "Copiar",
+        "copied": "Copiado!",
+        "form": {
+            "name_label": "O teu nome",
+            "email_label": "O teu email",
+            "subject_label": "Assunto",
+            "message_label": "Mensagem",
+            "name_placeholder": "João Silva",
+            "email_placeholder": "joao@exemplo.com",
+            "subject_placeholder": "Nova Oportunidade / Conversa Rápida",
+            "message_placeholder": "Olá Bernardo, adoraria conversar sobre...",
+            "submit": "Enviar mensagem"
+        }
+    },
+    "footer": {
+        "text": "© 2026 Bernardo Lagos. Todos os direitos reservados. · Construído com React, TypeScript & Framer Motion."
+    }
+}

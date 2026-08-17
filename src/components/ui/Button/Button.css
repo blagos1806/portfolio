@@ -1,0 +1,112 @@
+/* Button.css */
+.btn {
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: var(--border-radius);
+  transition:
+    background-color var(--transition-fast),
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Sizes */
+.btn--sm {
+  font-size: var(--font-size-xs);
+  padding: 0.4rem 0.875rem;
+}
+
+.btn--md {
+  font-size: var(--font-size-sm);
+  padding: 0.625rem 1.25rem;
+}
+
+.btn--lg {
+  font-size: var(--font-size-base);
+  padding: 0.75rem 1.75rem;
+}
+
+/* Variants */
+.btn--primary {
+  background-color: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
+.btn--primary:hover:not(:disabled) {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-1px);
+}
+
+.btn--secondary {
+  background-color: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn--secondary:hover:not(:disabled) {
+  background-color: var(--color-primary-glow);
+  transform: translateY(-1px);
+}
+
+.btn--ghost {
+  background-color: transparent;
+  color: var(--color-text-muted);
+  border-color: transparent;
+}
+
+.btn--ghost:hover:not(:disabled) {
+  color: var(--color-text);
+  background-color: var(--color-bg-secondary);
+}
+
+/* Icon-only circular */
+.btn--icon-only {
+  border-radius: 50%;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.btn--icon-only.btn--sm {
+  width: 2rem;
+  height: 2rem;
+}
+
+.btn--icon-only.btn--md {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.btn--icon-only.btn--lg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.btn__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.btn svg {
+  display: block;
+}

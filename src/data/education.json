@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "title": {
+            "en": "Bachelor's Degree in Computer Science",
+            "pt": "Licenciatura em Engenharia Informática"
+        },
+        "institution": {
+            "en": "Polytechnic Institute of Setúbal",
+            "pt": "Instituto Politécnico de Setúbal"
+        },
+        "timeframe": {
+            "en": "2020 - 2023",
+            "pt": "2020 - 2023"
+        },
+        "duration": "3 years",
+        "location": "Setúbal, Portugal",
+        "description": {
+            "en": [""],
+            "pt": [""]
+        },
+        "inprogress": false,
+        "logo": "assets/images/ips-logo.jpg",
+        "certification": "assets/certificates/bachelor-degree.pdf",
+        "certificationUrl": null,
+        "type": "degree"
+    },
+    {
+        "id": 2,
+        "title": {
+            "en": "Python Programming Specialization",
+            "pt": "Formação em Programação Python"
+        },
+        "institution": {
+            "en": "IEFP",
+            "pt": "IEFP"
+        },
+        "timeframe": {
+            "en": "Dec 2025 - Apr 2026",
+            "pt": "Dez 2025 - Abr 2026"
+        },
+        "duration": "350h",
+        "location": "Online",
+        "description": {
+            "en": ["Intensive training focused on advanced Python logic, data structures, and full python integration."],
+            "pt": ["Curso intensivo focado em lógica avançada de Python, estruturas de dados e integração completa do Python."]
+        },
+        "inprogress": false,
+        "logo": "assets/images/iefp-logo.png",
+        "certification": null,
+        "certificationUrl": null,
+        "type": "long_course"
+    },
+    {
+        "id": 3,
+        "title": {
+            "en": "Docker & Kubernetes",
+            "pt": "Docker & Kubernetes"
+        },
+        "institution": {
+            "en": "Udemy",
+            "pt": "Udemy"
+        },
+        "timeframe": {
+            "en": "Present",
+            "pt": "Presente"
+        },
+        "duration": "21h 30m",
+        "location": "Online",
+        "description": {
+            "en": [" Containerization, CI/CD workflows, and AWS/Google Cloud deployment. "],
+            "pt": [" Containerização, fluxos de CI/CD e deployment em AWS/Google Cloud. "]
+        },
+        "inprogress": true,
+        "logo": "assets/images/udemy-logo.png",
+        "certification": null,
+        "certificationUrl": null,
+        "type": "certification"
+    },
+    {
+        "id": 4,
+        "title": {
+            "en": "Go Programming Language",
+            "pt": "Linguagem de Programação Go"
+        },
+        "institution": {
+            "en": "Udemy",
+            "pt": "Udemy"
+        },
+        "timeframe": {
+            "en": "Apr 2026",
+            "pt": "Abr 2026"
+        },
+        "duration": "9h",
+        "location": "Online",
+        "description": {
+            "en": ["Concurrency models (Routines/Channels) and scalable backend design."],
+            "pt": ["Concorrência (Routines/Channels) e design de backend escalável."]
+        },
+        "inprogress": false,
+        "logo": "assets/images/udemy-logo.png",
+        "certification": "assets/certificates/golang.pdf",
+        "certificationUrl": "https://ude.my/UC-28d975c4-4ed9-4b7c-ac54-ed64c7ebff13",
+        "type": "certification"
+    },
+    {
+        "id": 5,
+        "title": {
+            "en": "Modern React with Redux",
+            "pt": "React & Redux"
+        },
+        "institution": {
+            "en": "Udemy",
+            "pt": "Udemy"
+        },
+        "timeframe": {
+            "en": "May 2023",
+            "pt": "Mai 2023"
+        },
+        "duration": "37h 30m",
+        "location": "Online",
+        "description": {
+            "en": ["Advanced state management and TypeScript integration."],
+            "pt": ["Gestão avançada de estado e integração com TypeScript."]
+        },
+        "inprogress": false,
+        "logo": "assets/images/udemy-logo.png",
+        "certification": "assets/certificates/react-redux.pdf",
+        "certificationUrl": "https://ude.my/UC-bbbdba8e-bf8d-40d3-8c62-510c4ca50ede",
+        "type": "certification"
+    },
+    {
+        "id": 6,
+        "title": {
+            "en": "Responsive Websites with HTML and CSS",
+            "pt": "Websites Responsivos com HTML e CSS"
+        },
+        "institution": {
+            "en": "Udemy",
+            "pt": "Udemy"
+        },
+        "timeframe": {
+            "en": "Jun 2023",
+            "pt": "Jun 2023"
+        },
+        "duration": "37h 30m",
+        "location": "Online",
+        "description": {
+            "en": ["Building responsive websites using HTML and CSS."],
+            "pt": ["Construção de websites responsivos usando HTML e CSS."]
+        },
+        "inprogress": false,
+        "logo": "assets/images/udemy-logo.png",
+        "certification": "assets/certificates/html-css-responsive-websites.pdf",
+        "certificationUrl": "https://ude.my/UC-c2b9c6b3-1465-4470-b90b-c1cf103deea8",
+        "type": "certification"
+    }
+]

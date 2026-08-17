@@ -1,0 +1,185 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "en": "Price Watch",
+            "pt": "Price Watch"
+        },
+        "description": {
+            "en": [
+                "A full-stack price monitoring tool that tracks product prices across e-commerce websites.",
+                "Users can add products with custom CSS selectors and price-drop thresholds.",
+                "The app scrapes prices on a configurable schedule (via APScheduler), stores historical data with SQLAlchemy, and fires desktop notifications when a target price is reached.",
+                "Supports both static and JavaScript-rendered pages through a dual-scraper architecture (Requests/BeautifulSoup + Playwright)."
+            ],
+            "pt": [
+                "Uma ferramenta full-stack de monitorização de preços que acompanha os preços de produtos em sites de e-commerce.",
+                "Os utilizadores podem adicionar produtos com seletores CSS personalizados e limites de queda de preço.",
+                "A aplicação faz scraping dos preços de acordo com um cronograma configurável (via APScheduler), armazena dados históricos com SQLAlchemy e envia notificações de ambiente de trabalho quando um preço alvo é atingido.",
+                "Suporta tanto páginas estáticas como páginas renderizadas em JavaScript através de uma arquitetura de scraping dupla (Requests/BeautifulSoup + Playwright)."
+            ]
+        },
+        "stack": [
+            "Python",
+            "Flask",
+            "SQLAlchemy",
+            "Playwright",
+            "BeautifulSoup4",
+            "APScheduler",
+            "Pytest"
+        ],
+        "github": "https://github.com/blagos1806/price-watch",
+        "demo": null,
+        "logo": null
+    },
+    {
+        "id": 2,
+        "name": {
+            "en": "Money Map",
+            "pt": "Money Map"
+        },
+        "description": {
+            "en": [
+                "Personal finance management web application that gives users full control over their financial life.",
+                "It allows tracking income and expenses across multiple accounts, organizing transactions by custom categories, setting monthly budgets with spending alerts, and defining saving goals.",
+                "The dashboard provides a real-time overview of the month's financial health through interactive charts, and the reports module lets users export data as PDF or CSV."
+            ],
+            "pt": [
+                "Aplicação web de gestão de finanças pessoais que oferece ao utilizador controlo total sobre a sua vida financeira.",
+                "Permite registar receitas e despesas em múltiplas contas, organizar transações por categorias personalizadas, definir orçamentos mensais com alertas de gastos e criar metas de poupança.",
+                "O dashboard fornece uma visão em tempo real da saúde financeira do mês através de gráficos interativos, e o módulo de relatórios permite exportar dados em PDF ou CSV."
+            ]
+        },
+        "stack": [
+            "React",
+            "Vite",
+            "Node.js",
+            "Express",
+            "PostgreSQL"
+        ],
+        "github": "https://github.com/blagos1806/money-map",
+        "demo": null,
+        "logo": null
+    },
+    {
+        "id": 3,
+        "name": {
+            "en": "Nutri Track",
+            "pt": "Nutri Track"
+        },
+        "description": {
+            "en": [
+                "Full-stack health and fitness web application that generates personalized diet and workout plans powered by AI.",
+                "After collecting the user's physical data, goals, fitness level, and dietary restrictions, the app uses the OpenAI API to produce a custom meal plan, a gym workout plan, and a calisthenics plan.",
+                "Users can track their progress over time trough a dashboard showing weight history charts, BMI, TDEE, hydration, and workout completion logs.",
+                "Plans can be exported to PDF."
+            ],
+            "pt": [
+                "Aplicação Full-stack de saúde e fitness que gera planos alimentares e de treino personalizados com inteligência artificial.",
+                "Após recolher os dados físicos do utilizador, objetivos, nível de condicionamento e restrições alimentares, a app utiliza a API da OpenAI para criar um plano alimentar, um plano de treino e um plano de calistenia personalizados.",
+                "O progresso pode ser acompanhado num dashboard com gráficos de histórico de peso, IMC, TDEE, hidratação e registo de treinos concluídos.",
+                "Os planos podem ser exportados para PDF."
+            ]
+        },
+        "stack": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vite",
+            "Node.js",
+            "Express",
+            "SQLite",
+            "OpenAI API",
+            "JWT",
+            "Bcryptjs"
+        ],
+        "github": "https://github.com/blagos1806/Nutri-Track",
+        "demo": null,
+        "logo": null
+    },
+    {
+        "id": 4,
+        "name": {
+            "en": "Multi Docker",
+            "pt": "Multi Docker"
+        },
+        "description": {
+            "en": [
+                "A multi-container Fibonacci calculator that demonstrates a production-grade microservices architecture.",
+                "Users submit a fibonacci index, the app stores every queried index in PostgreSQL, computes the result asynchronously via a worker service, and catches it in Redis.",
+                "All of this is wired together through an Nginx reverse proxy."
+            ],
+            "pt": [
+                "Uma calculadora de Fibonacci multi-container que demonstra uma arquitetura de microserviços de nível de produção.",
+                "Os utilizadores submetem um índice de Fibonacci, a aplicação armazena todos os índices consultados no PostgreSQL, calcula o resultado de forma assíncrona através de um serviço worker e guarda-o no Redis.",
+                "Tudo isto é interligado através de um proxy reverso Nginx."
+            ]
+        },
+        "stack": [
+            "Docker",
+            "JavaScript",
+            "HTML5/CSS3",
+            "React",
+            "Node.js",
+            "Express",
+            "PostgreSQL",
+            "Redis",
+            "Nginx",
+            "GitHub Actions"
+        ],
+        "github": "https://github.com/blagos1806/multi-docker",
+        "demo": null,
+        "logo": null
+    },
+    {
+        "id": 5,
+        "name": {
+            "en": "Docker React",
+            "pt": "Docker React"
+        },
+        "description": {
+            "en": [
+                "A React single-page application containerized with Docker, using a multi-stage build (Node.js to build, Nginx to serve).",
+                "It has a full CI/CD pipeline that runs automated tests on every push and deploys to AWS Elastic Beanstalk via GitHub Actions."
+            ],
+            "pt": [
+                "Aplicação React de página única containerizada com Docker, usando uma build multi-stage (Node.js para build, Nginx para servir).",
+                "Possui uma pipeline completa de CI/CD que executa testes automatizados a cada push e faz deploy para AWS Elastic Beanstalk via GitHub Actions."
+            ]
+        },
+        "stack": [
+            "Docker",
+            "JavaScript",
+            "HTML5/CSS3",
+            "React",
+            "Jest",
+            "Nginx",
+            "GitHub Actions",
+            "AWS EB"
+        ],
+        "github": "https://github.com/blagos1806/docker-react",
+        "demo": null,
+        "logo": null
+    },
+    {
+        "id": 6,
+        "name": {
+            "en": "Golang Course",
+            "pt": "Curso de Golang"
+        },
+        "description": {
+            "en": [
+                "Series of mini-projects from a Golang course that cover the basics of the language as well as more advanced topics like concurrency and web development."
+            ],
+            "pt": [
+                "Série de mini-projetos de um curso de Golang que abordam os fundamentos da linguagem, bem como tópicos mais avançados, como concorrência e desenvolvimento web."
+            ]
+        },
+        "stack": [
+            "Go (Golang)"
+        ],
+        "github": "https://github.com/blagos1806/golang-course",
+        "demo": null,
+        "logo": null
+    }
+]
