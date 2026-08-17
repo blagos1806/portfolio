@@ -10,10 +10,14 @@
         },
         "description": {
             "en": [
-                ""
+                "Developed and maintained scalable, full-stack web applications and microservices using React and Node.js. Designed modern, responsive user interfaces focused on performance and optimal user experience.",
+                "Architected RESTful APIs and managed complex database models across both SQL (MS SQL Server, MariaDB) and MongoDB, ensuring high-performance queries and data integrity.",
+                "Created modular code libraries and published internal NPM packages to streamline development workflows and boost efficiency across teams."
             ],
             "pt": [
-                ""
+                "Desenvolvimento e manutenção de aplicações web full-stack e microsserviços escaláveis utilizando React e Node.js. Conceção e otimização de interfaces modernas e responsivas, focadas na performance e no impacto no utilizador.",
+                "Arquitetura de APIs RESTful e modelação de bases de dados relacionais e não-relacionais (SQL e MongoDB), garantindo eficiência e integridade no tratamento de dados.",
+                "Criação de componentes reutilizáveis e publicação/gestão de pacotes NPM internos, promovendo boas práticas e aumentando a eficiência do trabalho em equipa."
             ]
         },
         "stack": [
@@ -27,6 +31,6 @@
             "HTML5 / CSS3"
         ],
         "current": false,
-        "logo": null
+        "logo": "assets/images/insticc-logo.png"
     }
 ]

@@ -34,5 +34,41 @@
                 }
             }
         ]
+    },
+    {
+        "id": 2,
+        "id_experience": 1,
+        "name": {
+            "en": "Primoris",
+            "pt": "Primoris"
+        },
+        "overview": {
+            "en": "A project for Primoris, showcasing my skills, experience, and projects.",
+            "pt": "Um projeto para a Primoris, mostrando minhas habilidades, experiência e projetos."
+        },
+        "description": {
+            "en": [
+                "This project is a personal portfolio website that I built using React and Vite. It serves as a platform to showcase my skills, experience, and projects. The website features a clean and modern design, with sections for about me, experience, skills, education, projects, and contact information. It is fully responsive and optimized for performance."
+            ],
+            "pt": [
+                "Este projeto é um site de portfólio pessoal que construí usando React e Vite. Ele serve como uma plataforma para mostrar minhas habilidades, experiência e projetos. O site apresenta um design limpo e moderno, com seções sobre mim, experiência, habilidades, educação, projetos e informações de contato. É totalmente responsivo e otimizado para desempenho."
+            ]
+        },
+        "stack": [
+            "React",
+            "Vite",
+            "JavaScript (ES6+)",
+            "HTML5 / CSS3"
+        ],
+        "gallery": [
+            {
+                "id": 1,
+                "image": null,
+                "caption": {
+                    "en": "",
+                    "pt": ""
+                }
+            }
+        ]
     }
 ]
