@@ -1,6 +1,8 @@
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import personalData from "../../../data/personal.json";
 import Badge from "../../ui/Badge/Badge";
+import { fadeUp, fadeLeft, fadeRight, viewport } from "../../../utils/motionVariants";
 import "./About.css";
 
 export default function About() {
@@ -18,19 +20,21 @@ export default function About() {
   return (
     <section className="about" id="about">
       <div className="container about__inner">
-        <h2 className="about__title">{t("about.title")}</h2>
+        <motion.h2 className="about__title" variants={fadeUp} initial="hidden" whileInView="visible" viewport={viewport}>
+          {t("about.title")}
+        </motion.h2>
 
         <div className="about__body">
-          <div className="about__photo-wrapper">
+          <motion.div className="about__photo-wrapper" variants={fadeLeft} initial="hidden" whileInView="visible" viewport={viewport}>
             {aboutPhoto ? (
               <img src={aboutPhoto} alt={aboutPhotoCaption} className="about__photo" loading="lazy" />
             ) : (
               <div className="about__photo-placeholder" aria-hidden="true" />
             )}
             <div className="about__photo-ring" aria-hidden="true" />
-          </div>
+          </motion.div>
 
-          <div className="about__content">
+          <motion.div className="about__content" variants={fadeRight} initial="hidden" whileInView="visible" viewport={viewport}>
             {summary.filter(Boolean).map((paragraph, i) => (
               <p key={i} className="about__description">{paragraph}</p>
             ))}
@@ -68,7 +72,7 @@ export default function About() {
                 ))}
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
 
       </div>

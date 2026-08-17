@@ -27,6 +27,7 @@
 .modal__container--sm   { max-width: 400px; }
 .modal__container--md   { max-width: 640px; }
 .modal__container--lg   { max-width: 900px; }
+.modal__container--xl   { max-width: 1100px; }
 .modal__container--full { max-width: 95vw; height: 90dvh; }
 
 .modal__header {

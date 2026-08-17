@@ -32,7 +32,7 @@ export interface Experience {
 
 export interface Project {
   id: number
-  name: string
+  name: { en: string; pt: string }
   overview: { en: string; pt: string }
   description: { en: string[]; pt: string[] }
   stack: string[]

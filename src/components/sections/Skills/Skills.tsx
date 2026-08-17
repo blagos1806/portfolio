@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import skillsData from "../../../data/skills.json";
 import Badge from "../../ui/Badge/Badge";
+import { fadeUp, viewport } from "../../../utils/motionVariants";
 import "./Skills.css";
 
 const FILTER_TYPES = ["all", "frontend", "backend", "database", "devops", "testing", "tools"] as const;
@@ -21,9 +23,12 @@ export default function Skills() {
   return (
     <section className="skills" id="skills">
       <div className="container skills__inner">
-        <h2 className="skills__title">{t("skills.title")}</h2>
+        <motion.h2 className="skills__title" variants={fadeUp} initial="hidden" whileInView="visible" viewport={viewport}>
+          {t("skills.title")}
+        </motion.h2>
 
-        <div className="skills__filters" role="group" aria-label={t("skills.title")}>
+        <motion.div className="skills__filters" role="group" aria-label={t("skills.title")}
+          variants={fadeUp} initial="hidden" whileInView="visible" viewport={viewport}>
           {FILTER_TYPES.map((type) => (
             <button
               key={type}
@@ -34,18 +39,19 @@ export default function Skills() {
               {t(`skills.filter.${type}`)}
             </button>
           ))}
-        </div>
+        </motion.div>
 
-        <div className="skills__legend" aria-label="Level legend">
+        <motion.div className="skills__legend" aria-label="Level legend"
+          variants={fadeUp} initial="hidden" whileInView="visible" viewport={viewport}>
           {LEVELS.map((level) => (
             <span key={level} className="skills__legend-item">
               <span className={`skills__dot skills__dot--${level}`} aria-hidden="true" />
               <span className="skills__legend-label">{t(`skills.levels.${level}`)}</span>
             </span>
           ))}
-        </div>
+        </motion.div>
 
-        <div className="skills__grid">
+        <motion.div className="skills__grid" variants={fadeUp} initial="hidden" whileInView="visible" viewport={viewport}>
           {filtered.map((skill) => (
             <Badge
               key={skill.name}
@@ -55,7 +61,7 @@ export default function Skills() {
               dot
             />
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

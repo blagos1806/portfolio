@@ -12,7 +12,7 @@ interface EducationCardProps {
   item: EducationItem;
   lang: Lang;
   className?: string;
-  onViewCert: (url: string, title: string) => void;
+  onViewCert: (url: string, title: string, sourceUrl: string | null) => void;
 }
 
 export default function EducationCard({ item, lang, className = '', onViewCert }: EducationCardProps) {
@@ -72,7 +72,7 @@ export default function EducationCard({ item, lang, className = '', onViewCert }
           <Button
             variant="secondary"
             size="sm"
-            onClick={() => onViewCert(`${import.meta.env.BASE_URL}${item.certification}`, title)}
+          onClick={() => onViewCert(`${import.meta.env.BASE_URL}${item.certification}`, title, item.certificationUrl ?? null)}
           >
             {t('education.view_cert')}
           </Button>

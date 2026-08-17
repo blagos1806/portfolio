@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Mail, Copy, Check, Send, Phone } from "lucide-react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import Button from "../../ui/Button/Button";
+import { fadeUp, fadeLeft, fadeRight, viewport } from "../../../utils/motionVariants";
 import personalData from "../../../data/personal.json";
 import "./Contact.css";
 
@@ -33,10 +35,12 @@ export default function Contact() {
   return (
     <section className="contact" id="contact">
       <div className="container contact__inner">
-        <h2 className="contact__title">{t("contact.title")}</h2>
+        <motion.h2 className="contact__title" variants={fadeUp} initial="hidden" whileInView="visible" viewport={viewport}>
+          {t("contact.title")}
+        </motion.h2>
 
         <div className="contact__body">
-          <div className="contact__info">
+          <motion.div className="contact__info" variants={fadeLeft} initial="hidden" whileInView="visible" viewport={viewport}>
             <h4 className="contact__heading">{t("contact.heading")}</h4>
             <p className="contact__description">{t("contact.description")}</p>
 
@@ -70,9 +74,10 @@ export default function Contact() {
                 {phone}
               </Button>
             </div>
-          </div>
+          </motion.div>
 
-          <form className="contact__form" onSubmit={handleSubmit} noValidate>
+          <motion.form className="contact__form" onSubmit={handleSubmit} noValidate
+            variants={fadeRight} initial="hidden" whileInView="visible" viewport={viewport}>
             <div className="contact__form-row">
               <div className="contact__field">
                 <label className="contact__field-label" htmlFor="contact-name">
@@ -143,7 +148,7 @@ export default function Contact() {
             <Button variant="primary" icon={<Send size={15} />} size="md">
               {t("contact.form.submit")}
             </Button>
-          </form>
+          </motion.form>
         </div>
       </div>
     </section>
