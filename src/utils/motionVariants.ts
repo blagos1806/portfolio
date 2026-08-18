@@ -27,5 +27,5 @@ export const staggerItem: Variants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.45, ease } },
 };
 
-/** Shared viewport config: animate once when 30% is visible */
-export const viewport = { once: true, amount: 0.3 } as const;
+/** Shared viewport config: animate once when 10% is visible */
+export const viewport = { once: true, amount: 0.1 } as const;

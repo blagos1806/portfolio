@@ -188,8 +188,10 @@
 .hero__scroll-indicator {
   position: absolute;
   bottom: 1.75rem;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -220,11 +222,20 @@
     grid-template-columns: 1fr;
     gap: 2.5rem;
     text-align: center;
-    padding-block: 2.5rem 5rem;
+    padding-block: 2.5rem 7rem;
   }
 
   .hero__content {
     order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__headline,
+  .hero__actions,
+  .hero__stats {
+    width: 100%;
   }
 
   .hero__visual {
@@ -269,5 +280,23 @@
 
   .hero__stats {
     justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero__stats {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+  }
+
+  .hero__stat {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+
+  .hero__stat-sep {
+    display: none;
   }
 }

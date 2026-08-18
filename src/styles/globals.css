@@ -20,11 +20,13 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
 }
 
 html {
   scroll-behavior: smooth;
   scrollbar-gutter: stable;
+  overflow-x: clip;
 }
 
 img {
